@@ -10,9 +10,9 @@ android {
     defaultConfig {
         minSdk rootProject.ext.minSdkVersion
         targetSdk rootProject.ext.targetSdkVersion
-        applicationId "com.onestore.sample.inapp"
-        versionCode 1
-        versionName "1.0.0"
+        applicationId "%PackageName%"
+        versionCode %VersionCode%
+        versionName "%VersionName%"
     }
 
     buildTypes {

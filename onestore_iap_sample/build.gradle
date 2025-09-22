@@ -3,9 +3,9 @@ buildscript {
     ext {
         kotlin_version = '1.6.0'
 
-        compileSdkVersion = 31
+        compileSdkVersion = 35
         minSdkVersion = 21
-        targetSdkVersion = 31
+        targetSdkVersion = 35
 
         javaVersion = JavaVersion.VERSION_11
         jvmTarget = '11'
@@ -18,11 +18,8 @@ buildscript {
         maven { url 'https://repo.onestore.net/repository/onestore-sdk-public' }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.0.3'
+        classpath 'com.android.tools.build:gradle:8.1.4'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
     }
 }
 
